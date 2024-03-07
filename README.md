@@ -1,13 +1,23 @@
-# Sample Hardhat Project
+# SampleContract
+The contract includes functions to set and get the name and age values, as well as methods to store and retrieve name-age pairs using a mapping.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Description
 
-Try running some of the following tasks:
+The contract includes functions to set and get the name and age values, as well as methods to store and retrieve name-age pairs using a mapping.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+## Functionalities
+
+- `setName`: Sets the name of the contract.
+- `getName`: Retrieves the name of the contract.
+- `setAge`: Sets the age of the contract.
+- `getAge`: Retrieves the age of the contract.
+- `setNameAge`: Stores a name-age pair in a mapping.
+- `checkNameAge`: Retrieves the age associated with a given name from the mapping.
+
+## Usage
+
+This contract can be deployed on any Ethereum-compatible blockchain network or development environment. It provides basic functionalities for storing and retrieving name-age information.
+
+## License
+
+This contract is available under the UNLICENSED license.
